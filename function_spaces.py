@@ -1,4 +1,5 @@
 from sympy import *
+import inspect
 f,g=Function("f",real=True),Function("g",real=True)
 x=Symbol("x")
 
@@ -9,7 +10,7 @@ class Lp(Function):
             if p.is_zero:
                 return oo
             elif p is S.Infinity:
-                return maximum(Lp(x),x)
+                return maximum(f(x),x)
             
 
     def _eval_is_real(self):
@@ -18,5 +19,5 @@ class Lp(Function):
 p=2
 p=Symbol("p")
 L=Function("lp",real=True)(p)
-L=integrate(abs(f(x))**p, x)
-print(lp)
+
+print(inspect.getsource(Function))
