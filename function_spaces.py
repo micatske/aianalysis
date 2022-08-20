@@ -26,7 +26,7 @@ class Lp(Function):
                 return  (integrate(Abs(f(x))**p,x))**(1/p)
         
 
-class F_Hs(Function):
+class F_hom_Hs(Function):
     nargs = (1, 2)
     @classmethod
     def eval(cls, s,Ff):
@@ -38,7 +38,7 @@ class F_Hs(Function):
         else:
                 return ( integrate(Abs(xi)**(2*s) * Abs(Ff(xi))**2,xi))**(1/2)
             
-class F_HS(Function):
+class F_in_HS(Function):
     nargs = (1, 2)
     @classmethod
     def eval(cls, s,Ff):
@@ -49,3 +49,4 @@ class F_HS(Function):
                 return maximum(Ff(xi),xi) #TBD
         else:
                 return ( integrate((1+Abs(xi)**2)**(s) * Abs(Ff(xi))**2,xi))**(1/2)
+        
