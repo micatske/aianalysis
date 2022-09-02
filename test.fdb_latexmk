@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1662158754 "/home/micatske/ml/aianalysis/test.tex" "test.pdf" "test" 1662158754
+["pdflatex"] 1662159475 "/home/micatske/ml/aianalysis/test.tex" "test.pdf" "test" 1662159476
   "/etc/texmf/web2c/texmf.cnf" 1650572932 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/micatske/ml/aianalysis/test.tex" 1662158753 239 2f56282d184a5258092f4caf93444299 ""
+  "/home/micatske/ml/aianalysis/test.tex" 1662159475 279 592a778ee569c3a51a9911319d9b2505 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb" 1248133631 30251 6afa5cb1d0204815a708a080681d4674 ""
@@ -23,8 +23,8 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1644012257 39432 7155514e09a3d69036fac785183a21c2 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1650573504 4379155 98693266ff65f58d9f98aff394de12d2 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1650573535 2800071 1b8dec6643455e3d06fa772e2ac62137 ""
-  "test.aux" 1662158754 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
-  "test.tex" 1662158753 239 2f56282d184a5258092f4caf93444299 ""
+  "test.aux" 1662159476 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  "test.tex" 1662159475 279 592a778ee569c3a51a9911319d9b2505 ""
   (generated)
   "test.aux"
   "test.log"
