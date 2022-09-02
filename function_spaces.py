@@ -12,7 +12,6 @@ s=Symbol("s")
 p=Symbol("p")
 
 
-
 class Lp(Function):
     nargs = (1, 2)
     @classmethod
@@ -24,6 +23,10 @@ class Lp(Function):
                 return maximum(f(x),x) #TBD
         else:
                 return  (integrate(Abs(f(x))**p,x))**(1/p)
+    def _latex(self, printer):
+      p, f = self.args
+      _p, _f = printer._print(p), printer._print(f)
+      return r'\left | %s \right | {L^{%s}}' % (_p, _f)
         
 
 class F_hom_Hs(Function):
