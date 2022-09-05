@@ -1,4 +1,6 @@
 # aimath
+
+The project is designed to automatically estimate functions in symbolic form
 ---
 ## Function Spaces
 
