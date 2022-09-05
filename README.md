@@ -6,4 +6,4 @@ We define function spaces $L^p$, $W^{k,p}$, $\dot H^s$, $H^s$, $C^{r,\alpha}$ by
 
 ## Sobolev Embedding
 
-We refer to the [https://en.wikipedia.org/wiki/Sobolev_inequality] for the Sobolev Embedding theory. Here we just need to input our function and it will output all possible embedding spaces 
+We build the [Sobolev inequality] (https://en.wikipedia.org/wiki/Sobolev_inequality) for the . Here we just need to input our function and it will output all possible embedding spaces 
