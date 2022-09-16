@@ -14,3 +14,14 @@ We build the [Sobolev inequality] (https://en.wikipedia.org/wiki/Sobolev_inequal
 ## Para Product 
 
 We build the Bony's Paraproduct decomposition (https://www.math.ucla.edu/~tao/247b.1.07w/notes6.pdf). We include the high-high, low-high, low-low paraproduct. Moreoever, we also include the usueful operator $\nabla$ and $\triangle$ for the function. The paraproduct can be used with the Sobolev Embedding and Holder inequality to estimate functions.
+
+For instance, if we call
+```
+Paraproduct(nabla*f,lap*g)
+```
+we get
+
+$$
+\\sum_{k=-\\infty}^{\\infty} 2^{3 k} P_{k}f P_{k}g + \\sum_{\\substack{-\\infty \\leq j \\leq k - 10\\\\-\\infty \\leq k \\leq \\infty}} 2^{j} 2^{2 k} P_{j}f P_{k}g + \\sum_{\\substack{-\\infty \\leq j \\leq k - 10\\\\-\\infty \\leq k \\leq \\infty}} 2^{2 j} 2^{k} P_{j}g P_{k}f
+$$
+
