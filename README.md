@@ -8,12 +8,12 @@ We define function spaces $L^p$, $W^{k,p}$, $\dot H^s$, $H^s$, $C^{r,\alpha}$ by
 
 ## Sobolev Embedding
 
-We build the [Sobolev inequality] (https://en.wikipedia.org/wiki/Sobolev_inequality) for the. Here we just need to input our function and it will output all possible embedding spaces. As a common rule. We know that they are in a linear realtion. So we just pick 10 possible pairs where each pairs are ratioal numbers.
+We build the [Sobolev inequality] (https://en.wikipedia.org/wiki/Sobolev_inequality) for the. Here we need to input our function, which will output all possible embedding spaces as a common rule. We know that they are in a linear relation. So we pick 10 possible pairs where each pair are rational numbers.
 
 
 ## Para Product 
 
-We build the Bony's Paraproduct decomposition (https://www.math.ucla.edu/~tao/247b.1.07w/notes6.pdf). We include the high-high, low-high, low-low paraproduct. Moreoever, we also include the usueful operator $\nabla$ and $\triangle$ for the function. The paraproduct can be used with the Sobolev Embedding and Holder inequality to estimate functions.
+We build the Bony's Paraproduct decomposition (https://www.math.ucla.edu/~tao/247b.1.07w/notes6.pdf). We include the high-high, low-high, and low-high paraproduct. Moreover, we also have the helpful operator $\nabla$ and $\triangle$ build-in. The paraproduct can be used with the Sobolev Embedding and Holder inequality to estimate functions.
 
 For instance, if we want to calculate the paraproduct of 
 
