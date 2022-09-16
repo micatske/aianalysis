@@ -16,9 +16,11 @@ We build the [Sobolev inequality] (https://en.wikipedia.org/wiki/Sobolev_inequal
 We build the Bony's Paraproduct decomposition (https://www.math.ucla.edu/~tao/247b.1.07w/notes6.pdf). We include the high-high, low-high, low-low paraproduct. Moreoever, we also include the usueful operator $\nabla$ and $\triangle$ for the function. The paraproduct can be used with the Sobolev Embedding and Holder inequality to estimate functions.
 
 For instance, if we want to calculate the paraproduct of 
+
 $$
 \nabla f * \triangle g= \pi_{hh}(\nabla f * \triangle g)+ \pi_{hl}(\nabla f * \triangle g)+\pi_{lh}(\nabla f * \triangle g),
 $$
+
 we can simply call:
 ```
 Paraproduct(nabla*f,lap*g)
